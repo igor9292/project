@@ -1,0 +1,29 @@
+﻿Построение начато 7/18/2013 11:32:54 PM.
+     1>Проект "C:\Users\Admin\Desktop\ProjectOne\ProjectOne\ProjectOne.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\ProjectOne.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\ProjectOne.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\ProjectOne.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GObject.cpp ProjectOne.cpp TImage.cpp TLine.cpp TPoint.cpp TRect.cpp TVector.cpp
+         TVector.cpp
+     1>c:\users\admin\desktop\projectone\projectone\tvector.cpp(138): warning C4018: <: несоответствие типов со знаком и без знака
+         TRect.cpp
+         TPoint.cpp
+         TLine.cpp
+         TImage.cpp
+     1>c:\users\admin\desktop\projectone\projectone\timage.cpp(128): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+         ProjectOne.cpp
+     1>c:\users\admin\desktop\projectone\projectone\projectone.cpp(16): fatal error C1083: Не удается открыть файл включение: GL/glut.h: No such file or directory
+         GObject.cpp
+     1>c:\users\admin\desktop\projectone\projectone\gobject.cpp(5): warning C4305: инициализация: усечение из "double" к "const float"
+     1>c:\users\admin\desktop\projectone\projectone\gobject.cpp(69): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\admin\desktop\projectone\projectone\gobject.cpp(70): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+         Создание кода...
+     1>c:\users\admin\desktop\projectone\projectone\timage.cpp(164): warning C4715: operator==: значение возвращается не при всех путях выполнения
+     1>c:\users\admin\desktop\projectone\projectone\trect.cpp(49): warning C4715: TRect::getLines: значение возвращается не при всех путях выполнения
+     1>Построение проекта "C:\Users\Admin\Desktop\ProjectOne\ProjectOne\ProjectOne.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:01.60
